@@ -1,4 +1,3 @@
-package BusTicketSystem;
 
 public class DoubleSeatBus extends Bus {
 

@@ -1,7 +1,3 @@
-import BusTicketSystem.DoubleSeatBus;
-import BusTicketSystem.DynamicSeatBus;
-import BusTicketSystem.Passenger;
-import BusTicketSystem.SingleSeatBus;
 
 public class TestClass {
     //0 means non group people other numbers represents groups

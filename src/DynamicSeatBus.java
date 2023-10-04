@@ -1,4 +1,3 @@
-package BusTicketSystem;
 
 //Dynamic bus class for new buses
 public class DynamicSeatBus extends Bus {

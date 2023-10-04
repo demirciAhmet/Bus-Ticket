@@ -1,4 +1,3 @@
-package BusTicketSystem;
 
 public class Seat {
 	private int seatNumber;

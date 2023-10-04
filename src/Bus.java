@@ -1,7 +1,5 @@
-package BusTicketSystem;
-//Names
-//Osman Oğuz Erol , Ahmet Kaan Demirci
-//22050111048     , 21050111031
+//Osman Oğuz Erol, Ahmet Kaan Demirci
+
 public abstract class Bus {
 	private String busType;
 	private String plateNumber;
@@ -13,7 +11,7 @@ public abstract class Bus {
 	private int groupNumber = 0; // A way for separate  groups
 	private int numberOfSeats;
 
-	//Constructor for single and double seat buses
+	//Constructor for the single and double seat busses
 	public Bus(String busType, String plateNumber, int numberOfRows, int posOfMidDoor) {
 
 		this.busType = busType;
@@ -23,9 +21,9 @@ public abstract class Bus {
 		groupNumber=0;
 
 	}
-	//Constructor for dynamic bus which takes position of the corridor and number of seats per row extra
-	//Corridor position helps to create new bus and determines right and lef of the bus
-	public Bus(String busType, String plateNumber, int numberOfRows, int posOfMidDoor, int corridorPos,int seatPerRow) {
+	//Dynamic bus constructor to add a bus with a more specific layout
+	//Corridor position helps to add a new bus and determines the right and left of the bus
+	public Bus(String busType, String plateNumber, int numberOfRows, int posOfMidDoor, int corridorPos, int seatPerRow) {
 
 		this.busType = busType;
 		this.plateNumber = plateNumber;

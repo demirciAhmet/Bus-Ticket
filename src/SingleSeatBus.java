@@ -1,6 +1,3 @@
-package BusTicketSystem;
-
-
 
 public class SingleSeatBus extends Bus{
 	

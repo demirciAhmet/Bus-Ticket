@@ -1,4 +1,3 @@
-package BusTicketSystem;
 
 public class Ticket{
     private Passenger owner = null;
